@@ -1,0 +1,432 @@
+/*
+미디어 쿼리 조건문 중 (orientation:landscape) 이것은
+홈페이지에 접속하는 기기에서 출력되는 화면이 가로가 세로보다 긴 경우의 조건문 입니다.
+*/
+
+/* Mobile Media Query CSS */
+@media screen and (min-width:320px) and (max-width:667px) {
+	.navbar-default {
+		padding:15px 0;
+	}
+
+	.navbar-default .navbar-brand {
+		padding:0;
+		height:auto;
+	}
+
+	.navbar-default .navbar-collapse {
+		margin-top:15px;
+	}
+
+	.line-header h1 {
+		font-size:1.8rem;
+	}
+
+	#main-section1 .line-header-inner:first-child {
+		width:55%;
+	}
+
+	#main-section1 .line-header-inner:last-child {
+		width:45%;
+	}
+
+	#main-section2 .line-header-inner:first-child {
+		width:40%;
+	}
+
+	#main-section2 .line-header-inner:last-child {
+		width:60%;
+	}
+
+	.contact-text ul li {
+		margin-right:0;
+	}
+	
+	.square-text-box .square-2nd,
+	.square-text-box .square-3rd,
+	.square-text-box .square-4th .square-4th-inner,
+	#doknosis-section4 .square-text-box .square-2nd,
+	#doknosis-section4 .square-text-box .square-3rd,
+	#doknosis-section4 .square-text-box .square-4th,
+	#doknosis-section4 .square-text-box .square-5th .square-5th-inner,
+	#projectdelta-section5 .square-text-box .square-2nd,
+	#projectdelta-section5 .square-text-box .square-3rd,
+	#projectdelta-section5 .square-text-box .square-4th,
+	#projectdelta-section5 .square-text-box .square-5th .square-5th-inner {
+		padding:1.5rem;
+	}
+
+	.section-center-text {
+		font-size:1.2rem;
+	}
+	
+	#doknosis-section4 .square-text-box div > h2,
+	#projectdelta-section5 .square-text-box div > h2,
+	.square-text-box .square-2nd > h2,
+	.square-text-box .square-3rd > h2,
+	.square-text-box .square-4th ul li h1,
+	.square-text-box .square-5th ul li h1 {
+		font-size:1.2rem;
+	}
+
+	#doknosis-section4 .square-text-box .square-5th ul li h1,
+	#projectdelta-section5 .square-text-box .square-5th ul li h1 {
+		font-size:1rem;
+	}
+
+	.square-text-box .square-4th ul li:before {
+		top:-20px;
+		left:-22px;
+	}
+
+	p.i-case1 {
+		white-space:normal;
+		margin-left:0;
+		text-align:right;
+	}
+
+	.design-progress .progress-item h4 {
+		font-size:0.7rem;
+	}
+
+	#doknosis-section9 .doknosis-carousel.owl-theme .owl-dots {
+		bottom:85px;
+	}
+
+	.projects-carousel p.text-right {
+		position:relative;
+		left:-5px;
+	}
+}
+
+@media screen and (min-width:360px) and (max-width:667px) and (orientation:landscape) {
+	#main-section1 .line-header-inner:first-child {
+		width:32% !important;
+	}
+
+	#main-section1 .line-header-inner:last-child {
+		width:68% !important;
+	}
+
+	#main-section2 .line-header-inner:first-child {
+		width:24% !important;
+	}
+
+	#main-section2 .line-header-inner:last-child {
+		width:76% !important;
+	}
+}
+
+/* Tablet & Laptop Media Query CSS */
+@media screen and (min-width:768px) and (max-width:1024px) {
+	#main-section1 .line-header-inner:first-child {
+		width:32%;
+	}
+
+	#main-section1 .line-header-inner:last-child {
+		width:68%;
+	}
+
+	#main-section2 .line-header-inner:first-child {
+		width:24%;
+	}
+
+	#main-section2 .line-header-inner:last-child {
+		width:76%;
+	}
+
+	.projects-carousel p.text-right {
+		position:relative;
+		left:-5px;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) and (orientation:landscape) {
+	#main-section1 .line-header-inner:first-child {
+		width:23%;
+	}
+
+	#main-section1 .line-header-inner:last-child {
+		width:67%;
+	}
+
+	#main-section2 .line-header-inner:first-child {
+		width:18%;
+	}
+
+	#main-section2 .line-header-inner:last-child {
+		width:82%;
+	}
+}
+
+/* Design Progress Media Query CSS */
+@media (max-width: 991px) and (min-width: 768px) {
+	.design-progress .progress-item.active .progress {
+		width:50%;
+		float:right;
+	}
+
+	.carnnect-section .design-progress .progress-item:nth-child(odd) .progress-text,
+	.carnnect-section .design-progress .progress-item:nth-child(even) .progress-text {
+		bottom:25px;
+		top:auto;
+	}
+
+	.doknosis-section .design-progress .progress-item:nth-child(odd) .progress-text,
+	.doknosis-section .design-progress .progress-item:nth-child(even) .progress-text {
+		bottom:25px;
+		top:auto;
+		left:70px !important;
+	}
+
+	.projectdelta-section .design-progress .progress-item:nth-child(odd) .progress-text,
+	.projectdelta-section .design-progress .progress-item:nth-child(even) .progress-text {
+		bottom:25px;
+		top:auto;
+		left:65px !important;
+	}
+
+	.regionpool-section .design-progress .progress-item:nth-child(odd) .progress-text,
+	.regionpool-section .design-progress .progress-item:nth-child(even) .progress-text {
+		bottom:25px;
+		top:auto;
+		left:80px !important;
+	}
+
+	.carnnect-section .design-progress .progress-item:nth-child(odd) .progress-text {
+		left:70px !important;
+	}
+
+	.carnnect-section .design-progress .progress-item:nth-child(even) .progress-text {
+		left:85px;
+	}
+
+	.carnnect-section .design-progress .progress-item:nth-child(8) .progress-text {
+		left:75px !important;
+	}
+
+	.carnnect-section .design-progress .progress-item:nth-child(10) .progress-text {
+		left:55px !important;
+	}
+
+	.carnnect-section .design-progress .progress-item:nth-child(2) .progress-text {
+		left:90px !important;
+	}
+
+	.carnnect-section .design-progress .progress-item:nth-child(3) .progress-text {
+		left:75px !important;
+	}
+
+	.carnnect-section .design-progress .progress-item:nth-child(4) .progress-text {
+		left:70px !important;
+	}
+
+	.carnnect-section .design-progress .progress-item:nth-child(6) .progress-text {
+		left:80px !important;
+	}
+
+	.regionpool-section .design-progress .progress-item:nth-child(11) .progress-text {
+		left:65px !important;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.design-progress .progress-item.active .progress {
+		width:50%;
+		float:right;
+	}
+
+	.carnnect-section .design-progress .progress-item:nth-child(odd) .progress-text,
+	.carnnect-section .design-progress .progress-item:nth-child(even) .progress-text {
+		bottom:25px;
+		top:auto;
+		left:115px;
+	}
+	
+	.doknosis-section .design-progress .progress-item:nth-child(odd) .progress-text,
+	.doknosis-section .design-progress .progress-item:nth-child(even) .progress-text {
+		bottom:25px;
+		top:auto;
+		left:120px;
+	}
+
+	.projectdelta-section .design-progress .progress-item:nth-child(odd) .progress-text,
+	.projectdelta-section .design-progress .progress-item:nth-child(even) .progress-text {
+		bottom:25px;
+		top:auto;
+		left:110px;
+	}
+
+	.regionpool-section .design-progress .progress-item:nth-child(odd) .progress-text,
+	.regionpool-section .design-progress .progress-item:nth-child(even) .progress-text {
+		bottom:25px;
+		top:auto;
+		left:115px;
+	}
+
+	.doknosis-section .design-progress .progress-item:nth-child(odd) .progress-text,
+	.doknosis-section .design-progress .progress-item:nth-child(even) .progress-text {
+		bottom:25px;
+		top:auto;
+		left:120px;
+	}
+
+	.regionpool-section .design-progress .progress-item:nth-child(3) .progress-text {
+		left:20px;
+	}
+
+	.regionpool-section .design-progress .progress-item:nth-child(4) .progress-text {
+		left:20px;
+	}
+
+	.regionpool-section .design-progress .progress-item:nth-child(5) .progress-text,
+	.regionpool-section .design-progress .progress-item:nth-child(6) .progress-text {
+		left:5px;
+	}
+
+	.regionpool-section .design-progress .progress-item:nth-child(7) .progress-text {
+		left:20px;
+	}
+
+	.regionpool-section .design-progress .progress-item:nth-child(8) .progress-text {
+		left:25px;
+	}
+
+	.carnnect-section .design-progress .progress-item:nth-child(10) .progress-text {
+		left:95px;
+	}
+	
+	.doknosis-section .design-progress .progress-item:nth-child(even) .progress-text {
+		left:70px;
+	}
+	
+	.doknosis-section .design-progress .progress-item:nth-child(3) .progress-text {
+		left:115px;
+	}
+
+	.doknosis-section .design-progress .progress-item:nth-child(1) .progress-text {
+		left:115px;
+	}
+
+	.doknosis-section .design-progress .progress-item:nth-child(2) .progress-text {
+		left:105px;
+	}
+
+	.doknosis-section .design-progress .progress-item:nth-child(4) .progress-text {
+		left:110px;
+	}
+
+	.doknosis-section .design-progress .progress-item:nth-child(6) .progress-text {
+		left:115px;
+	}
+
+	.doknosis-section .design-progress .progress-item:nth-child(8) .progress-text {
+		left:115px;
+	}
+
+	.progress.last {
+		width:50%;
+		float:right;
+	}
+
+	.active .progress.last {
+		width:100% !important;
+		float:none !important;
+	}
+}
+
+@media (min-width:360px) and (max-width:667px) {
+	.carnnect-section .design-progress .progress-item:nth-child(odd) .progress-text,
+	.carnnect-section .design-progress .progress-item:nth-child(even) .progress-text {
+		bottom:25px;
+		top:auto;
+		left:15px;
+	}
+	
+	.doknosis-section .design-progress .progress-item:nth-child(odd) .progress-text,
+	.doknosis-section .design-progress .progress-item:nth-child(even) .progress-text {
+		bottom:25px;
+		top:auto;
+		left:20px;
+	}
+
+	.projectdelta-section .design-progress .progress-item:nth-child(odd) .progress-text,
+	.projectdelta-section .design-progress .progress-item:nth-child(even) .progress-text {
+		bottom:25px;
+		top:auto;
+		left:25px;
+	}
+
+	.regionpool-section .design-progress .progress-item:nth-child(odd) .progress-text,
+	.regionpool-section .design-progress .progress-item:nth-child(even) .progress-text {
+		bottom:25px;
+		top:auto;
+		left:20px;
+	}
+
+	.carnnect-section .design-progress .progress-item:nth-child(10) .progress-text {
+		left:10px;
+	}
+
+	.projectdelta-section .design-progress .progress-item:nth-child(9) .progress-text {
+		left:15px;
+	}
+
+	.progress.last {
+		width:50%;
+		float:right;
+	}
+
+	.active .progress.last {
+		width:100% !important;
+		float:none !important;
+	}
+
+	.design-progress .progress-item.active .progress {
+		width:50%;
+		float:right;
+	}
+}
+
+@media (min-width:360px) and (max-width:667px) and (orientation:landscape) {
+	.carnnect-section .design-progress .progress-item:nth-child(odd) .progress-text,
+	.carnnect-section .design-progress .progress-item:nth-child(even) .progress-text {
+		bottom:25px;
+		top:auto;
+		left:65px;
+	}
+
+	.projectdelta-section .design-progress .progress-item:nth-child(odd) .progress-text,
+	.projectdelta-section .design-progress .progress-item:nth-child(even) .progress-text {
+		bottom:25px;
+		top:auto;
+		left:70px;
+	}
+
+	.regionpool-section .design-progress .progress-item:nth-child(odd) .progress-text,
+	.regionpool-section .design-progress .progress-item:nth-child(even) .progress-text {
+		bottom:25px;
+		top:auto;
+		left:75px;
+	}
+
+	.carnnect-section .design-progress .progress-item:nth-child(odd) .progress-text {
+		left:50px;
+	}
+
+	.carnnect-section .design-progress .progress-item:nth-child(even) .progress-text {
+		left:65px;
+	}
+	
+	.doknosis-section .design-progress .progress-item:nth-child(odd) .progress-text {
+		left:75px !important;
+	}
+
+	.doknosis-section .design-progress .progress-item:nth-child(even) .progress-text {
+		left:65px !important;
+	}
+
+	.doknosis-section .design-progress .progress-item:nth-child(7) .progress-text {
+		left:65px !important;
+	}
+}
